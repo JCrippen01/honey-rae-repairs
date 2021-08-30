@@ -71,6 +71,14 @@
             "id": 2,
             "name": "Rose Schmitt",
             "specialty": "Printers"
+        },
+        {   "id": 3,
+            "name": "Richard Cranium",
+            "specialty": "Mac Laptops"
+        },
+        {   "id": 4,
+            "name": "William Gates",
+            "specialty": "PC Laptops"
         }
     ],
     "serviceTickets": [
