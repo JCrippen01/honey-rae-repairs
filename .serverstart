@@ -1,0 +1,10 @@
+#!/bin/bash
+#Start Servers for web development
+
+screen -S Honey Raes NPM
+
+npm start
+
+screen -S Honey Raes Json
+
+(cd ./honey-rae-repairs/honey-raes-api && json-server -p 8088 database.json)
