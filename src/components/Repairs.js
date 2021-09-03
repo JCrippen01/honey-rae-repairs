@@ -1,6 +1,7 @@
 import { React } from "react"
 import { CustomerList } from "./customers/CustomerList.js"
 import { EmployeeList } from "./Employees.js"
+import { TicketList } from "./serviceTickets/TicketList.js"
 
 export const Repairs = () => {
         return (
@@ -12,6 +13,9 @@ export const Repairs = () => {
                 
                 <p>Employees</p>
                 <EmployeeList />
+
+                <p>Service Tickets</p>
+                <TicketList />
 
                 
             </>    
